@@ -1,6 +1,6 @@
 # backend/run.py 
 import uvicorn
-from app.api import app
+from app.api.api import app
 from app.database.db_setup import create_db_and_tables 
 
 if __name__ == "__main__":

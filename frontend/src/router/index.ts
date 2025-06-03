@@ -1,6 +1,6 @@
 // src/router/index.ts
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../components/Home/Home.vue'
+import Home from '../components/Shop/Shop.vue'
 import AuthDashboard from '../components/Authentication/Auth_dasboard.vue'
 
 const router = createRouter({
@@ -8,7 +8,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Shop',
       component: Home
     },
     {

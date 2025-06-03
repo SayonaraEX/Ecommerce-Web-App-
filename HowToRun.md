@@ -1,11 +1,11 @@
-# To run frontend
-cd frontend
-npm run dev
-
 # To run backend
 cd backend
 .\venv\Scripts\Activate.ps1
 uvicorn run:app --reload
+
+# To run frontend
+cd frontend
+npm run dev
 
 # To kill running port
 npx kill-port (port number)

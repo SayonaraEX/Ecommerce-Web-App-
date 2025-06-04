@@ -71,4 +71,7 @@ const cancelLogout = () => {
 </template>
 
 <style scoped>
+.confirmation-overlay{
+  background-color: blue;
+}
 </style>
